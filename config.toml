@@ -1,0 +1,47 @@
+[Directory]
+# absolute path to where this project cloned or downloaded e.g: Desktop/YoutubeAutomation-Reddit
+path=''
+# ----------------------------------------------------------
+[RedditCredential]
+client_id=''
+client_secret=''
+user_agent='
+username=''
+passkey=''
+# ----------------------------------------------------------
+[YoutubeCredential]
+client_id=''
+client_secret=''
+# ----------------------------------------------------------
+[AmazonAWSCredential]
+aws_access_key_id=''
+aws_secret_access_key=''
+region_name='eu-central-1'
+# ----------------------------------------------------------
+[Reddit]
+# the subredit for which reddit posts are taken
+subreddit='AskReddit'
+# number of top comments
+topn_comments=10
+# ----------------------------------------------------------
+[VideoSetup]
+# the total duration of the final video in seconds
+total_video_duration=60
+# pause between reddit
+pause=0.7
+# ----------------------------------------------------------
+[TextToSpeechSetup]
+# if set to true, each post/comment would have a random voice over
+multiple_voices=true
+# if multiple_voices is set to false, every post/comment would have the specified voice over
+voice_id='Joanna'
+# ----------------------------------------------------------
+[Background]
+# absolute path to the background video e.g: Desktop/minecraft.mp4
+path=''
+# ----------------------------------------------------------
+[App]
+# whether the result video should be uploaded to your youtube channel
+upload_to_youtube=true
+# how often should the app be run (in seconds) e.g: every 6 hours -> 21600 seconds
+run_every=21600
