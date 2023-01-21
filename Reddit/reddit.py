@@ -30,7 +30,7 @@ def get_thread(reddit:Reddit, subreddit:str):
     subreddit_ = reddit.subreddit(subreddit)
 
 
-    threads = subreddit_.hot(10)
+    threads = subreddit_.top('week')
 
     # sort threads based on number of up-votes
     sorted_threads = sorted(threads, key=lambda x: int(x.score), reverse=True)
