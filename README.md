@@ -22,7 +22,7 @@
 [AWS.com]: https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white
 [AWS-url]: https://aws.amazon.com/
 [Reddit.com]: https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white
-[Rddit-url]: https://www.reddit.com/
+[Reddit-url]: https://www.reddit.com/
 
 [Json.com]: https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white
 [Json-url]: https://www.json.org/json-en.html
