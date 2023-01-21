@@ -4,7 +4,6 @@ beautifulsoup4==4.11.1
 boto3==1.26.48
 botocore==1.29.48
 cachetools==5.2.1
-certifi @ file:///croot/certifi_1671487769961/work/certifi
 charset-normalizer==2.1.1
 decorator==4.4.2
 exceptiongroup==1.1.0
