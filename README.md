@@ -1,5 +1,9 @@
 # YouTubeAutomation-Reddit
 
+[![Watch the video](https://img.youtube.com/vi/QRQ4p0BGn2g/default.jpg)](https://youtube.com/shorts/QRQ4p0BGn2g?feature=share)
+
+
+
 ### Built With
 * [![AWS][AWS.com]][AWS-url]
 * [![Python][Python.com]][Python-url]
