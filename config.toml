@@ -1,5 +1,9 @@
 [Directory]
-# absolute path to where this project cloned or downloaded e.g: Desktop/YoutubeAutomation-Reddit
+# absolute path to where this project is cloned or downloaded e.g: Desktop/YoutubeAutomation-Reddit
+path=''
+# ----------------------------------------------------------
+[Background]
+# absolute path to the background video e.g: Desktop/minecraft.mp4
 path=''
 # ----------------------------------------------------------
 [RedditCredential]
@@ -27,7 +31,7 @@ topn_comments=10
 [VideoSetup]
 # the total duration of the final video in seconds
 total_video_duration=60
-# pause between reddit
+# pause between reading the next comment (in seconds)
 pause=0.7
 # ----------------------------------------------------------
 [TextToSpeechSetup]
@@ -36,12 +40,8 @@ multiple_voices=true
 # if multiple_voices is set to false, every post/comment would have the specified voice over
 voice_id='Joanna'
 # ----------------------------------------------------------
-[Background]
-# absolute path to the background video e.g: Desktop/minecraft.mp4
-path=''
-# ----------------------------------------------------------
 [App]
 # whether the result video should be uploaded to your youtube channel
-upload_to_youtube=true
+upload_to_youtube=false
 # how often should the app be run (in seconds) e.g: every 6 hours -> 21600 seconds
 run_every=21600
