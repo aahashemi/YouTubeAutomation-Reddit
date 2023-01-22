@@ -82,7 +82,7 @@ https://user-images.githubusercontent.com/69358811/213927870-48c6f2af-f320-4a62-
      passkey='YOUR REDDIT PASSWORD'
      ```
 
-6. At this point you can run the the program and generate a video with updating a few more parameter is the `config.toml` file. 
+6. At this point you can run the the program and generate a video however before that you need to updating a few more parameter in the `config.toml` file. 
    
    ```toml
    [Directory]
@@ -92,21 +92,32 @@ https://user-images.githubusercontent.com/69358811/213927870-48c6f2af-f320-4a62-
    [Background]
    # absolute path to the background video e.g: Desktop/minecraft.mp4
    path=''
-   # --------------------------------------------
-   [Reddit]
-   # the subredit for which reddit posts are taken
-   subreddit='AskReddit'
-   # number of top comments
-   topn_comments=10
-   # --------------------------------------------
-   [VideoSetup]
-   # the total duration of the final video in seconds
-   total_video_duration=60
-   # pause between reddit
-   pause=0.7
+   ```
+   
+   You can download any YouTube video as a background and add its path to the `config.toml` file. Here are a few options:
+    * Minecraft (1:20 h): https://youtu.be/n_Dv4JMiwK8
+    * GTA (1:00 h): https://youtu.be/qdvjZ1bUw68
+    * Subway Surfer (1:05 h): https://youtu.be/ChBg4aowzX8
+   
+6. If you want the app to automatically upload the generated video into your Youtube channel, first set `upload_to_youtube = true` and specify how often you want the app to upload a video (in seconds). I don't recommond anything less than every 6 hours because you will reach your qouta limit. 
+
+  ```toml
+   [App]
+   # whether the result video should be uploaded to your youtube channel
+   upload_to_youtube=false
+   # how often should the app be run (in seconds) e.g: every 6 hours -> 21600 seconds
+   run_every=21600
+   ```
+ 7. Finally you need to enable the Youtube api to be able to upload videos from your computer. This process is a bit more involved, so I'll link to a [blog tutorial]('https://youtu.be/aFwZgth790Q'). Just follow the steps until **minute 10:58** and you will be able to get a `client_id` and a `client_secret`. Update the following parameters and HOORAY 🥳🥳🥳!
+     
+   ```toml
+   [YoutubeCredential]
+   client_id=''
+   client_secret=''
    ```
 
-
-    
-   
-
+All we are left do is run
+```python3
+   python main.py
+   ```
+And let the app do the the rest!
