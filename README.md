@@ -115,4 +115,3 @@ All we are left do is run
    python main.py
    ```
 And let the app do the the rest!
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
