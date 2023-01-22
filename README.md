@@ -1,12 +1,11 @@
 # YouTubeAutomation-Reddit 🎥
-
+This project fully automatically uploads generated videos off of Reddit posts into your Youtube channel 
 
 
 ## Sample Video 
 https://user-images.githubusercontent.com/69358811/213927870-48c6f2af-f320-4a62-be51-411f6915a283.mp4
 
-
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Built With
 * [![AWS][AWS.com]][AWS-url]
@@ -14,8 +13,6 @@ https://user-images.githubusercontent.com/69358811/213927870-48c6f2af-f320-4a62-
 * [![Reddit][Reddit.com]][Reddit-url]
 * [![Youtube][Youtube.com]][Youtube-url]
 * [![Json][Json.com]][Json-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -32,7 +29,7 @@ https://user-images.githubusercontent.com/69358811/213927870-48c6f2af-f320-4a62-
 
 [Json.com]: https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white
 [Json-url]: https://www.json.org/json-en.html
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Installation 👨‍💻
 
 1. Clone this repository <br />
@@ -121,3 +118,4 @@ All we are left do is run
    python main.py
    ```
 And let the app do the the rest!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
