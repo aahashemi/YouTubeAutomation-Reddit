@@ -93,7 +93,7 @@ https://user-images.githubusercontent.com/69358811/213927870-48c6f2af-f320-4a62-
     * GTA (1:00 h): https://youtu.be/qdvjZ1bUw68
     * Subway Surfer (1:05 h): https://youtu.be/ChBg4aowzX8
    
-6. If you want the app to automatically upload the generated video into your Youtube channel, first set `upload_to_youtube = true` and specify how often you want the app to upload a video (in seconds). I don't recommond anything less than every 6 hours because you will reach your qouta limit. 
+7. If you want the app to automatically upload the generated video into your Youtube channel, first set `upload_to_youtube = true` and specify how often you want the app to upload a video (in seconds). I don't recommond anything less than every 6 hours because you will reach your qouta limit. 
 
   ```toml
    [App]
@@ -102,7 +102,7 @@ https://user-images.githubusercontent.com/69358811/213927870-48c6f2af-f320-4a62-
    # how often should the app be run (in seconds) e.g: every 6 hours -> 21600 seconds
    run_every=21600
    ```
- 7. Finally you need to enable the Youtube api to be able to upload videos from your computer. This process is a bit more involved, so I'll link to a [blog tutorial]('https://youtu.be/aFwZgth790Q'). Just follow the steps until **minute 10:58** and you will be able to get a `client_id` and a `client_secret`. Update the following parameters and HOORAY 🥳🥳🥳!
+8. Finally you need to enable the Youtube api to be able to upload videos from your computer. This process is a bit more involved, so I'll link to a [blog tutorial]('https://youtu.be/aFwZgth790Q'). Just follow the steps until **minute 10:58** and you will be able to get a `client_id` and a `client_secret`. Update the following parameters and HOORAY 🥳🥳🥳!
      
    ```toml
    [YoutubeCredential]
