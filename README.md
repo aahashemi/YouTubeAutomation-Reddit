@@ -4,15 +4,13 @@ Using this project, videos generated from Reddit posts will be automatically upl
 ## Sample Video 
 https://user-images.githubusercontent.com/69358811/213927870-48c6f2af-f320-4a62-be51-411f6915a283.mp4
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Built With
 * [![AWS][AWS.com]][AWS-url]
 * [![Python][Python.com]][Python-url]
 * [![Reddit][Reddit.com]][Reddit-url]
 * [![Youtube][Youtube.com]][Youtube-url]
 * [![Json][Json.com]][Json-url]
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [Python.com]: https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue
