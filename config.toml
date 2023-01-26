@@ -9,7 +9,7 @@ path=''
 [RedditCredential]
 client_id=''
 client_secret=''
-user_agent='
+user_agent=''
 username=''
 passkey=''
 # ----------------------------------------------------------
