@@ -1,9 +1,6 @@
 # YouTubeAutomation-Reddit 🎥
 Using this project, videos generated from Reddit posts will be automatically uploaded to your YouTube channel <br />
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/aahashemi)
-
-
 ## Sample Video 
 https://user-images.githubusercontent.com/69358811/213927870-48c6f2af-f320-4a62-be51-411f6915a283.mp4
 
