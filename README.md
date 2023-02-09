@@ -102,7 +102,7 @@ https://user-images.githubusercontent.com/69358811/213927870-48c6f2af-f320-4a62-
    # how often should the app be run (in seconds) e.g: every 6 hours -> 21600 seconds
    run_every=21600
    ```
-8. Finally you need to enable the Youtube api to be able to upload videos from your computer. This process is a bit more involved, so I'll link to a [blog tutorial](https://youtu.be/aFwZgth790Q). Just follow the steps until **minute 10:58** and you will be able to get a `client_id` and a `client_secret`. Update the following parameters and HOORAY 🥳🥳🥳!
+8. Finally you need to enable the Youtube api to be able to upload videos from your computer. This process is a bit more involved, so I'll link to a [blog tutorial](https://youtu.be/aFwZgth790Q). Just follow the steps until **minute 10:58** and you will be able to get a `client_id` and a `client_secret`. Update the following parameters and HOORAY!
      
    ```toml
    [YoutubeCredential]
