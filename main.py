@@ -87,6 +87,8 @@ def main():
         add_pause(input_path, output_path, mp3_pause)
 
     # create final video
+    Path("./Results").mkdir(parents=True, exist_ok=True)
+    
     make_final_video(title_audio_path=title_audio_clean_path,
                      comments_audio_path=comments_audio_clean_path,
                      title_image_path=title_image_path,
